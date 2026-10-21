@@ -1,6 +1,7 @@
 from pyscript import display, document
 
 def add_member(e):
+    document.getElementById('result').innerHTML = ' '
     grade7 = {'Mckenna Grace', 'Walker Scobell', 'Ariana Greenblatt'}
     grade8 = {'Millie Bobby Brown', 'Jenna Ortega', 'Peyton List'}
     grade9 = {'Maya Hawke', 'Elle Fanning', 'Florence Pugh'}
